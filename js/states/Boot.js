@@ -1,6 +1,4 @@
-var gameName = gameName || {};
-
-gameName.BootState = {
+module.exports = {
     init: function() {
         this.game.stage.backgroundColor = '#000';
 

@@ -1,0 +1,25 @@
+{
+  "name": "game-template",
+  "version": "1.0.0",
+  "description": "game template for phaser games",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smturek/phaser-game-template.git"
+  },
+  "author": "turek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smturek/phaser-game-template/issues"
+  },
+  "homepage": "https://github.com/smturek/phaser-game-template#readme",
+  "devDependencies": {
+    "webpack": "^1.13.1"
+  },
+  "dependencies": {
+    "phaser": "^2.4.8"
+  }
+}

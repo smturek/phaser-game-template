@@ -1,6 +1,4 @@
-var gameName = gameName || {};
-
-gameName.PreloadState = {
+module.exports = {
     preload: function() {
         this.preloadBar = this.add.sprite(this.game.world.centerX, this.game.world.centerY, 'loadBar');
         this.preloadBar.anchor.setTo(0.5);

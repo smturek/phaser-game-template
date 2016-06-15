@@ -1,6 +1,4 @@
-var gameName = gameName || {};
-
-gameName.GameState = {
+module.exports = {
     init: function() {
 
     },

@@ -1,6 +1,4 @@
-var gameName = gameName || {};
-
-gameName.MenuState = {
+module.exports = {
     create: function() {
         var titleTextStyle = {font: '100px Arial', fill: '#FFFFFF', align: 'center'};
         this.titleText = this.game.add.text(this.game.world.centerX, this.game.world.centerY + 100, '????', titleTextStyle);
